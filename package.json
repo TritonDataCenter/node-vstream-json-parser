@@ -1,0 +1,21 @@
+{
+	"name": "vstream-json-parser",
+	"description": "vstream-based JSON parser stream",
+	"version": "1.0.0",
+	"main": "./lib/vstream-json-parser.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/joyent/node-vstream-json-parser.git"
+	},
+	"devDependencies": {
+	        "lstream": "0.0.4"
+	},
+	"dependencies": {
+		"jsprim": "1.0.0",
+		"vstream": "0.1.0"
+	},
+	"scripts": {
+		"test": "make test"
+	},
+	"license": "MIT"
+}
